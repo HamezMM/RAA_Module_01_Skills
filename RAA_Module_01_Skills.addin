@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Module 1 Skills Command</Text>
+    <Description>Command Solution for Challenge 1</Description>
+    <Assembly>RAA_Module_01_Skills\RAA_Module_01_Skills.dll</Assembly>
+    <FullClassName>RAA_Module_01_Skills.Command1</FullClassName>
+    <ClientId>fd85d971-d59c-43e4-afaa-61ca9a7e4607</ClientId>
+    <VendorId>James McKinnon</VendorId>
+    <VendorDescription>James McKinnon</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>RAA_Module_01_Skills - Command 2</Text>
+    <Description>Some description</Description>
+    <Assembly>RAA_Module_01_Skills\RAA_Module_01_Skills.dll</Assembly>
+    <FullClassName>RAA_Module_01_Skills.Command2</FullClassName>
+    <ClientId>6b64b0b2-4b8e-441e-a6eb-a2f8a2099509</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>RAA_Module_01_Skills</Name>
+    <Assembly>RAA_Module_01_Skills\RAA_Module_01_Skills.dll</Assembly>
+    <FullClassName>RAA_Module_01_Skills.App</FullClassName>
+    <ClientId>3f38f9ca-c2c5-4fe6-ac5f-453b9a5277ec</ClientId>
+    <VendorId>James McKinnon</VendorId>
+    <VendorDescription>James McKinnon</VendorDescription>
+  </AddIn>
+</RevitAddIns>
